@@ -1,0 +1,54 @@
+
+.container{ 
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+} 
+.box-logo{ 
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+.svg{ 
+    width: 25px;
+    max-width: 100%; 
+} 
+
+.header-menu{ 
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+column-gap: 50px;
+} 
+.icons-link{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.link{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+input{
+width: 150px;
+height: 20px;
+}
+input:hover{
+    width: 155px;
+height: 25px;
+cursor: pointer;
+}
+.btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
